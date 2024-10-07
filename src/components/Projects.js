@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Proyecto 1',
-    description: 'Una breve descripción del Proyecto 1. Este proyecto se enfoca en...',
-    image: '/placeholder.svg?height=200&width=300',
-    link: 'https://proyecto1.com'
+    title: 'Desencriptador',
+    description: 'El proyecto consiste en una aplicación web diseñada para encriptar y desencriptar textos utilizando un conjunto específico de "llaves" de encriptación.',
+    image: '/img/img1.png',
+    link: 'https://challenge-1-iota.vercel.app/'
   },
   {
     title: 'Proyecto 2',
