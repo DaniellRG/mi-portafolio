@@ -3,19 +3,19 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Proyecto 1',
+    title: 'Conversor de Monedas',
     description: 'El proyecto consiste en una aplicación web diseñada para encriptar y desencriptar textos utilizando un conjunto específico de "llaves" de encriptación.',
     image: '/img/img1.png',
     link: 'https://challenge-1-iota.vercel.app/'
   },
   {
-    title: 'Proyecto 2',
+    title: 'Sistema de Gestión de Tareas',
     description: 'Este proyecto es una aplicación web de gestión de tareas que permite a los usuarios organizar y dar seguimiento a sus actividades diarias. Los usuarios pueden crear, editar, eliminar y marcar tareas como completadas, así como filtrarlas por prioridad y estado.',
     image: '/img/img2.png',
     link: 'https://github.com/DaniellRG/Sistema_de_Gesti-n_de_Tareas'
   },
   {
-    title: 'Proyecto 3',
+    title: 'Conversor de Monedas',
     description: 'El Conversor de Monedas es una aplicación de consola que permite a los usuarios convertir entre diferentes monedas utilizando tasas de cambio en tiempo real obtenidas de una API externa.',
     image: '/img/img3.png',
     link: 'https://github.com/DaniellRG/Conversor_Monedas'
