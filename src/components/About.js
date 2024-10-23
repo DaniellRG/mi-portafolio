@@ -38,20 +38,26 @@ function About() {
           transition={{ duration: 0.8 }}
         >
           <motion.h1 
-            className="text-7xl md:text-7xl font-bold mb-6 text-white"
-            whileHover={{ scale: 1.05 }}
+            className="text-7xl md:text-8xl font-bold mb-6 text-white"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 0.8 }}
           >
             Daniel Gomez
           </motion.h1>
           <motion.h2 
             className="text-5xl md:text-6xl mb-8 text-blue-400"
-            whileHover={{ scale: 1.05 }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
           >
             Desarrollador Full Stack
           </motion.h2>
           <motion.p 
             className="text-3xl md:text-4xl text-gray-300 mb-8 leading-relaxed"
-            whileHover={{ scale: 1.02 }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 0.8 }}
           >
             Soy un Ingeniero de Sistemas apasionado por crear soluciones innovadoras y eficientes. 
             Mi enfoque se centra en el desarrollo Full Stack, combinando mis habilidades en el front-end y back-end 
@@ -65,7 +71,7 @@ function About() {
           transition={{ duration: 0.8 }}
         >
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-md">
-            <span ref={el} className="text-green-400 text-2xl md:text-3xl font-mono" />
+            <span ref={el} className="text-green-400 text-xl md:text-2xl font-mono" />
           </div>
         </motion.div>
       </div>

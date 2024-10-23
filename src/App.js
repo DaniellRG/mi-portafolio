@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Header from './components/Header';
 import About from './components/About';
 import MovingDots from './components/MovingDots';
+import ScrollToTop from './components/ScrollToTop';
 
 const Skills = lazy(() => import('./components/Skills'));
 const Projects = lazy(() => import('./components/Projects'));
@@ -47,6 +48,7 @@ function App() {
           <Footer />
         </Suspense>
       </div>
+      <ScrollToTop />
     </div>
   );
 }

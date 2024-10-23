@@ -22,7 +22,14 @@ function Skills() {
   return (
     <section id="habilidades" className="min-h-screen flex items-center justify-center px-4 py-16">
       <div className="container mx-auto">
-        <h2 className="text-5xl md:text-5xl font-bold mb-24 text-center text-white">Habilidades</h2>
+        <motion.h2 
+          className="text-5xl md:text-6xl font-bold mb-12 text-center text-white"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          Habilidades
+        </motion.h2>
         <motion.div 
           className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8"
           initial={{ opacity: 0 }}
@@ -35,7 +42,7 @@ function Skills() {
               className="flex flex-col items-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.1 }}
             >
               <skill.icon size={64} color={skill.color} />
